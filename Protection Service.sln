@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{813C8F29-CCCC-46CA-BE1C-D75E2A4C05DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F652592F-2102-4A9C-8E94-1B34FA327A7C}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		azure-pipelines.yaml = azure-pipelines.yaml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Helm", "Helm", "{41BF305C-9E1B-4583-B430-21E098E0DA44}"
+	ProjectSection(SolutionItems) = preProject
+		helm\values-dev.yaml = helm\values-dev.yaml
+		helm\values-prd.yaml = helm\values-prd.yaml
+		helm\values-prd1.yaml = helm\values-prd1.yaml
+		helm\values-stg.yaml = helm\values-stg.yaml
+		helm\values-stg1.yaml = helm\values-stg1.yaml
+		helm\values-uat.yaml = helm\values-uat.yaml
+		helm\values-uat1.yaml = helm\values-uat1.yaml
+		helm\values-uat2.yaml = helm\values-uat2.yaml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Protect", "Protect\Protect.csproj", "{1A2CEE61-8E49-42EE-9987-1F8B078AAC55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unprotect", "Unprotect\Unprotect.csproj", "{C0EE4027-51A3-4998-9060-9A070DDC64C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A2CEE61-8E49-42EE-9987-1F8B078AAC55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A2CEE61-8E49-42EE-9987-1F8B078AAC55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A2CEE61-8E49-42EE-9987-1F8B078AAC55}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{1A2CEE61-8E49-42EE-9987-1F8B078AAC55}.Debug|x64.Build.0 = Debug|Any CPU
+		{1A2CEE61-8E49-42EE-9987-1F8B078AAC55}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1A2CEE61-8E49-42EE-9987-1F8B078AAC55}.Debug|x86.Build.0 = Debug|Any CPU
+		{1A2CEE61-8E49-42EE-9987-1F8B078AAC55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A2CEE61-8E49-42EE-9987-1F8B078AAC55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A2CEE61-8E49-42EE-9987-1F8B078AAC55}.Release|x64.ActiveCfg = Release|Any CPU
+		{1A2CEE61-8E49-42EE-9987-1F8B078AAC55}.Release|x64.Build.0 = Release|Any CPU
+		{1A2CEE61-8E49-42EE-9987-1F8B078AAC55}.Release|x86.ActiveCfg = Release|Any CPU
+		{1A2CEE61-8E49-42EE-9987-1F8B078AAC55}.Release|x86.Build.0 = Release|Any CPU
+		{C0EE4027-51A3-4998-9060-9A070DDC64C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0EE4027-51A3-4998-9060-9A070DDC64C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0EE4027-51A3-4998-9060-9A070DDC64C3}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C0EE4027-51A3-4998-9060-9A070DDC64C3}.Debug|x64.Build.0 = Debug|Any CPU
+		{C0EE4027-51A3-4998-9060-9A070DDC64C3}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C0EE4027-51A3-4998-9060-9A070DDC64C3}.Debug|x86.Build.0 = Debug|Any CPU
+		{C0EE4027-51A3-4998-9060-9A070DDC64C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0EE4027-51A3-4998-9060-9A070DDC64C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0EE4027-51A3-4998-9060-9A070DDC64C3}.Release|x64.ActiveCfg = Release|Any CPU
+		{C0EE4027-51A3-4998-9060-9A070DDC64C3}.Release|x64.Build.0 = Release|Any CPU
+		{C0EE4027-51A3-4998-9060-9A070DDC64C3}.Release|x86.ActiveCfg = Release|Any CPU
+		{C0EE4027-51A3-4998-9060-9A070DDC64C3}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1A2CEE61-8E49-42EE-9987-1F8B078AAC55} = {813C8F29-CCCC-46CA-BE1C-D75E2A4C05DB}
+		{C0EE4027-51A3-4998-9060-9A070DDC64C3} = {813C8F29-CCCC-46CA-BE1C-D75E2A4C05DB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE602378-F36D-48C1-8866-550F66F6D02F}
+	EndGlobalSection
+EndGlobal
